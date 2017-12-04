@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url("https://i.giphy.com/media/BL5tuBbN2bOGA/giphy.webp")
+}
+header {
+  border-bottom: thick, 1px, purple;
+  height: 10%;
+  /* background: beige; */
+}
+.newTopic {
+  background: purple;
+  color: yellowgreen;
+  float: left;
+  margin: 10px;
+}
+aside {
+  text-align: left;
+  color: yellowgreen;
+  background: purple;
+  position: absolute;
+  right: 10px;
+  top: 10%;
+  padding: 5px;
+}
+input {
+  text-align: left;
+}
+article {
+  position: absolute;
+  top: 10%;
+  width: 75%;
+}
+.item {
+  float: left;
+  margin: 10px;
+  color: white; 
+}
