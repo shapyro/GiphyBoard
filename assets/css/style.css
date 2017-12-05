@@ -16,6 +16,7 @@ header {
   color: yellowgreen;
   float: left;
   margin: 10px;
+  font-size: 14px;
 }
 aside {
   text-align: left;
@@ -32,10 +33,20 @@ input {
 article {
   position: absolute;
   top: 10%;
-  width: 75%;
+  width: 90%;
 }
 .item {
   float: left;
   margin: 10px;
   color: white; 
+}
+#randomGif {
+  position: fixed;
+  background: purple;
+  font-size: 15px;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  height: 200px;
+  width: 200px;
 }
